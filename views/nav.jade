@@ -1,0 +1,38 @@
+extends layout
+
+block navbar
+  if (!user)
+ 
+        #navbar-inverse.collapse.navbar-collapse
+        ul.nav.navbar-nav
+                li.active: a(href="/login") Login 
+                   i(class="glyphicon glyphicon-log-in")
+                li: a(href="/register") Register
+  else
+
+
+    if (user.username=="admin") 
+       
+        a.navbar-brand(href="/#/") Hi #{user.username}
+ 
+        #navbar-inverse.collapse.navbar-collapse
+        ul.nav.navbar-nav
+                li.active: a(href="/logout") Logout 
+                    i(class="glyphicon glyphicon-log-out")
+                li: a(href="/#/") Home 
+                    i(class="glyphicon glyphicon-home")
+    else
+        a.navbar-brand(href="#/trial") Welcome #{user.username}
+ 
+        #navbar-inverse.collapse.navbar-collapse
+        ul.nav.navbar-nav
+                li.active: a(href="/logout") Logout 
+                    i(class="glyphicon glyphicon-log-out")
+                li: a(href="/view-cart") Cart 
+                    i(class="glyphicon glyphicon-shopping-cart")
+                li: a(href="/#/saved") Your Orders
+                    i(class="glyphicon glyphicon-cutlery")
+                li: a(href="/#/trial") Home
+                    i(class="glyphicon glyphicon-home") 
+                     
+                    

@@ -1,0 +1,155 @@
+/* 1 */
+{
+    "_id" : ObjectId("5eb49cc829e47e7feb6cdfb8"),
+    "name" : "Margerita",
+    "description" : "Loaded with pepperoni and cheese",
+    "category" : "Non Veg",
+    "available" : 6,
+    "price" : 5,
+    "isDelete" : true,
+    "picture" : "pizza_1.jpg"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5eb49d1929e47e7feb6cdff7"),
+    "name" : "Margerita Pineapple",
+    "description" : "Loaded with cheese and pineapple",
+    "category" : "Veg",
+    "available" : 2,
+    "price" : 5,
+    "isDelete" : true,
+    "picture" : "pizza_2.jpg"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5eb49d6829e47e7feb6ce036"),
+    "name" : "Cheesy Delight",
+    "description" : "Loaded with heavy cheese",
+    "category" : "Veg",
+    "available" : 2,
+    "price" : 3,
+    "isDelete" : "False",
+    "picture" : "pizza_3.jpg"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5eb49d6829e47e7feb6ce039"),
+    "name" : "Square Pizza",
+    "description" : "Square pizza with bacon and pepperoni",
+    "category" : "Non Veg",
+    "available" : 7,
+    "price" : 5,
+    "isDelete" : "False",
+    "picture" : "pizza_4.jpg"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5eb49d8329e47e7feb6ce050"),
+    "name" : "Veggie Delight",
+    "description" : "Loaded with heavy cheese and vegetables",
+    "category" : "Veg",
+    "available" : 9,
+    "price" : 3,
+    "isDelete" : true,
+    "picture" : "pizza_5.jpg"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5eb49d8329e47e7feb6ce053"),
+    "name" : "Bell pepper & Olives",
+    "description" : "Loaded with cheese bell pepper and olives",
+    "price" : 3,
+    "category" : "Veg",
+    "available" : 10,
+    "isDelete" : "False",
+    "picture" : "pizza_6.jpg"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5eb4b929059fce6d9cb576c5"),
+    "name" : "Pizzeria special",
+    "description" : "Test",
+    "price" : 5,
+    "category" : "Veg",
+    "available" : 2,
+    "isDelete" : true,
+    "picture" : "pizza_1.jpg"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5eb4b977059fce6d9cb576c6"),
+    "name" : "Tejas Special",
+    "description" : "test 2",
+    "price" : 500000,
+    "category" : "Non Veg",
+    "available" : 1,
+    "isDelete" : true,
+    "picture" : "pizza_11.jpg"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5eb4b9d6fc3b18641002af86"),
+    "name" : "Chef special",
+    "description" : "adsad",
+    "price" : 10,
+    "category" : "Veg",
+    "available" : 2,
+    "isDelete" : true,
+    "picture" : "pizza_11.jpg"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5eb4bb0bfc3b18641002af87"),
+    "name" : "satyam",
+    "description" : "asdasd",
+    "price" : 1,
+    "category" : "Veg",
+    "available" : 1,
+    "isDelete" : true,
+    "picture" : "pizza_1.jpg"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5eb4bb91fc3b18641002af88"),
+    "name" : "asdasdasd",
+    "description" : "sadasfadfaf",
+    "price" : 1,
+    "category" : "Veg",
+    "available" : 1,
+    "isDelete" : true,
+    "picture" : "pizza_1.jpg"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5eb4cf1bfc3b18641002af9d"),
+    "name" : "Pepperoni",
+    "description" : "Test",
+    "category" : "Veg",
+    "available" : 1,
+    "price" : 1,
+    "isDelete" : "False",
+    "picture" : "pizza_1.jpg"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5eb4d2d3fc3b18641002af9f"),
+    "name" : "Margerita",
+    "description" : "Loaded with cheese",
+    "price" : 5,
+    "category" : "Veg",
+    "available" : 4,
+    "isDelete" : "False",
+    "picture" : "pizza_1.jpg"
+}

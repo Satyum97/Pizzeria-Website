@@ -1,0 +1,42 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="search">
+    <label>search : </label><input type="text" ng-model="query" placeholder="search for pizza">
+    <label class="formgroup">by : </label>
+    <select ng-model="category">
+    <option value="V">Veg</option>
+    <option value="N">Non Veg</option>
+    <option value=""></option>
+    </select>
+ </div>
+
+  </div>
+</div> 
+
+<div >
+    <div class="col" dir-paginate='pizza in pizzas  | itemsPerPage:3 | filter:{"name":query} | filter:{"category":category}'>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+        <div class="caption">
+          <a href="/#/pizza/user/{{pizza._id}}">
+          <img src="http://localhost:3000/images/uploads/{{pizza.picture}}" style="height: 150px;">
+            {{pizza.name}}
+            </a>
+            <p>${{pizza.price}}</p>
+            <p><a href="/add-to-cart/{{pizza._id}}" class="btn btn-primary btn-lg active" role="button">Add to cart</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+ <div class="text-center">
+  <dir-pagination-controls
+       max-size="5"
+       direction-links="true"
+       boundary-links="true"
+        >
+</dir-pagination-controls>
+</div>
+
+

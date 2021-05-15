@@ -1,0 +1,27 @@
+{
+  "name": "pizzeria",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "angular-utils-pagination": "^0.11.1",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "express-fileupload": "^0.3.0",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "js-alert": "^1.0.4",
+    "mongoose": "^4.13.4",
+    "monk": "^6.0.5",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.4.0",
+    "serve-favicon": "~2.4.5"
+  }
+}

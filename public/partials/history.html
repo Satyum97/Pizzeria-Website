@@ -1,0 +1,21 @@
+
+<div >
+    <div class="col" dir-paginate='id1 in saved  | itemsPerPage:3'>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+        	<img src="../images/uploads/{{id1.item.picture}}" alt="not loading">
+        <div class="caption">
+          <h3>{{id1.item.name}}</h3>
+	        <p>Quantity ordered: {{id1.qty}}</p>
+	        <p>Price: ${{id1.price}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+ <dir-pagination-controls
+       max-size="5"
+       direction-links="true"
+       boundary-links="true" >
+</dir-pagination-controls>

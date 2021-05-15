@@ -1,0 +1,35 @@
+extends nav
+
+block content  
+  br
+  if item
+    each pizza in item
+      div
+        .col
+          .col-md-3
+            a(href="/delete/#{pizza.item._id}")
+              i(class="glyphicon glyphicon-remove")
+            .thumbnail
+              img(src="../images/uploads/#{pizza.item.picture}", alt="not loading")
+              .caption
+                h3 #{pizza.item.name}
+                p Quantity ordered: #{pizza.qty} 
+                    a(href="/add/#{pizza.item._id}")
+                      i(class="glyphicon glyphicon-plus")
+                    a(href="/minus/#{pizza.item._id}")
+                      i(class="glyphicon glyphicon-minus")
+                p Price: $#{pizza.price}
+                br
+
+    if price==0
+      p no items
+    else
+      br
+      br
+      p Amount to be paid: $#{price}
+      a(href='/payment')
+        button.btn.btn-primary(type="button") Checkout
+  else
+    p no items 
+
+

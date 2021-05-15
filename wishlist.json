@@ -1,0 +1,83 @@
+/* 1 */
+{
+    "_id" : ObjectId("5eb4ceb1fc3b18641002af9c"),
+    "user" : null,
+    "cart" : {
+        "items" : {
+            "5eb49cc829e47e7feb6cdfb8" : {
+                "id" : "5eb49cc829e47e7feb6cdfb8",
+                "item" : {
+                    "_id" : ObjectId("5eb49cc829e47e7feb6cdfb8"),
+                    "name" : "Pepperoni",
+                    "description" : "Loaded with pepperoni and cheese",
+                    "category" : "Non Veg",
+                    "available" : 3,
+                    "price" : 3,
+                    "isDelete" : "False",
+                    "picture" : "pizza_1.jpg"
+                },
+                "qty" : 2,
+                "price" : 6
+            },
+            "5eb49d6829e47e7feb6ce036" : {
+                "id" : "5eb49d6829e47e7feb6ce036",
+                "item" : {
+                    "_id" : ObjectId("5eb49d6829e47e7feb6ce036"),
+                    "name" : "Cheesy Delight",
+                    "description" : "Loaded with heavy cheese",
+                    "category" : "Veg",
+                    "available" : 8,
+                    "price" : 3,
+                    "isDelete" : "False",
+                    "picture" : "pizza_3.jpg"
+                },
+                "qty" : 1,
+                "price" : 3
+            }
+        },
+        "totalQty" : 3,
+        "totalPrice" : 9
+    }
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5eb4d241fc3b18641002af9e"),
+    "user" : "TestUser",
+    "cart" : {
+        "items" : {
+            "5eb49d6829e47e7feb6ce039" : {
+                "id" : "5eb49d6829e47e7feb6ce039",
+                "item" : {
+                    "_id" : ObjectId("5eb49d6829e47e7feb6ce039"),
+                    "name" : "Square Pizza",
+                    "description" : "Square pizza with bacon and pepperoni",
+                    "category" : "Non Veg",
+                    "available" : 9,
+                    "price" : 5,
+                    "isDelete" : "False",
+                    "picture" : "pizza_4.jpg"
+                },
+                "qty" : 2,
+                "price" : 10
+            },
+            "5eb49d8329e47e7feb6ce050" : {
+                "id" : "5eb49d8329e47e7feb6ce050",
+                "item" : {
+                    "_id" : ObjectId("5eb49d8329e47e7feb6ce050"),
+                    "name" : "Veggie Delight",
+                    "description" : "Loaded with heavy cheese and vegetables",
+                    "price" : 3,
+                    "category" : "Veg",
+                    "available" : 10,
+                    "isDelete" : "False",
+                    "picture" : "pizza_5.jpg"
+                },
+                "qty" : 1,
+                "price" : 3
+            }
+        },
+        "totalQty" : 3,
+        "totalPrice" : 13
+    }
+}

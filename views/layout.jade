@@ -1,0 +1,17 @@
+doctype html
+html(ng-app='pizzeria')
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js')
+    script(src='/javascripts/pizzeria.js')
+    script(src='https://npmcdn.com/js-alert/dist/jsalert.min.js')
+    script(src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js")
+    script(src='/javascripts/dirPagination.js')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    block navbar
+    include header.html
+  body
+    block content
